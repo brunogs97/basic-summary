@@ -97,3 +97,38 @@ small {
     padding: 15px 0;
     cursor: pointer;
 }
+
+@media (max-width: 500px) {
+    body {
+        background-image: url('../images/pattern-background-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: 100% 60%;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    header {
+        height: 170px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 20px;
+        width: 80%;
+    }
+
+    #info-plano {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    #btn-pagamento {
+        font-size: 14px;
+    }   
+    
+    #btn-cancel {
+        font-size: 14px;
+    }
+}
