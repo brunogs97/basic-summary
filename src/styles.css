@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --font: 'Inter', sans-serif;
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --white: #ffffff;
+}
+
+body {
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+    font-family: var(--font);
+}
+
+main {
+    border-radius: 20px;
+    width: 27vw;
+    margin: 2em auto 0 auto;
+    text-align: center;
+    overflow: hidden;
+    background-color: var(--white);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
+}
+
+header {
+    background-image: url('../images/illustration-hero.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 900;
+} 
+
+p {
+    font-weight: 400;
+    color: var(--desaturated-blue);
+    margin: 1em auto;
+    line-height: 20px;
+    width: 80%;
+}
+
+#info-plano {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+span {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+small {
+    color: var(--desaturated-blue);
+}
+
+#btn-pagamento {
+    display: block;
+    width: 85%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: var(--bright-blue);
+    margin: 1em auto;
+    padding: 15px 0;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+}   
+
+#btn-cancel {
+    color: var(--desaturated-blue);
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    width: 85%;
+    margin: 0 auto 1em auto;
+    padding: 15px 0;
+    cursor: pointer;
+}
